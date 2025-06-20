@@ -1,43 +1,43 @@
 let lion_tiger=[{
     "lion":"Brooo 🐯",
     "tiger":"Oye king 😂",
-    "date":"10:00"
+    "date":"10:00am"
 },
 {
     "lion":" Still scared of me? 😎",
     "tiger": "Scared? I sneeze louder than your roar 😤",
-    "date":"1030"
+    "date":"1030am"
 
    
 },
 {
     "lion":"Chill bro, don’t pull a muscle 😆",
     "tiger":" Don’t worry, I stretch before roasting 🐅🔥",
-    "date":"11:00"
+    "date":"11:00am"
 
     
 },
 {
     "lion":"Wanna race",
     "tiger":"Sure. You run. I nap. I win. 😴",
-    "date":"11:10"
+    "date":"11:10am"
 
 }
 ,
 {
     "lion":"Lazy legend 😑",
     "tiger":"Smart survival, bro 😎",
-    "date":"11:30",
+    "date":"11:30am",
 
 },{
     "lion":"Next hunt is on you",
     "tiger":"Cool. I’ll order online",
-    "date":"12:00"
+    "date":"12:00pm"
 },
 {
     "lion":"Wild Eats",
     "tiger":"30 mins or antelope free 🛵💨",
-    "date":"12:05",
+    "date":"12:05pm",
 
 },];
 const hold_card=document.querySelectorAll('.uniquekey');
