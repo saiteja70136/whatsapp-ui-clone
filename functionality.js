@@ -1,5 +1,5 @@
 let lion_tiger=[{
-    "lion":"Brooo 🐯",
+    "lion":"Brooo",
     "tiger":"Oye king 😂",
     "date":"10:00am"
 },
