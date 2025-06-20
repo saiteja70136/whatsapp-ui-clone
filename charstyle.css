@@ -1,0 +1,289 @@
+.outerdiv{
+    border-radius:30px;
+    width:350px;
+    background-color: rgb(32, 92, 73);
+    position: relative;
+    overflow-y:scroll;
+    scrollbar-width: none;
+    height:100%;
+}
+.header{
+    height:50px;
+    width:350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    background-color: rgb(32, 92, 73);
+    box-shadow: 0 0 10px rgba(0,0,0,0.34);
+    z-index:1;
+
+}
+.leftsec{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:white;
+    margin-left:20px;
+}
+.rightsec{
+    color: white;
+    margin-right:20px;
+    width:90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbar{
+    height:40px;
+    display: flex;
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom:10px;
+}
+.searchfield{
+    height:100%;
+    width:100%;
+    border-radius:30px;
+    padding-left:10px;
+    padding-right:10px;
+    border: none;
+}
+.messagesec{
+    margin-top: 55px;
+    font-family: sans-serif;
+    color: white;
+}
+.person1 ,.person2 ,.person3 ,.person4 ,.person5 ,.person6 ,.person7{
+    height:65px;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+/*we should give height and width then only we can see the 
+    background image otherwise it is not visable because we and not
+    adding element to parent ,we are changing the background of 
+    element if there is nothin inside parent element 
+    height and width are '0'
+*/
+.person1img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    background-image:url(lion.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    margin-left:10px;
+    border-radius:40px;
+    margin-right:10px;
+}
+.person2img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    background-image:url(tiger.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    margin-left:10px;
+    border-radius:40px;
+    margin-right:10px;
+}
+.person3img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    background-image:url(cheetha.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    margin-left:10px;
+    border-radius:40px;
+    margin-right:10px;
+}
+.person4img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    background-image:url(elephant.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    margin-left:10px;
+    border-radius:40px;
+    margin-right:10px;
+}
+.person5img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    background-image:url(blackpanter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    margin-left:10px;
+    border-radius:40px;
+    margin-right:10px;
+}
+.person6img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    background-image:url(bear.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    margin-left:10px;
+    border-radius:40px;
+    margin-right:10px;
+}
+.person7img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90px;
+    background-image:url(rottweiler.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    margin-left:10px;
+    border-radius:40px;
+    margin-right:10px;
+}
+.checkallsize{
+    font-size:25px;
+}
+.personinfo{
+    width:100%;
+}
+.person1:hover ,.person2:hover ,.person3:hover ,.person4:hover 
+,.person5:hover ,.person6:hover ,.person7:hover{
+    cursor: pointer;
+}
+.messagefield{
+    bottom:0;
+    width:330px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    padding:10px;
+    background-color:rgb(36, 38, 38);
+    color: white;
+    border-radius:50px;
+    z-index: 1;
+}
+.sticker ,.inputmesg ,.attachfile ,.pay ,.camara{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputmesg{
+    background-color: transparent;
+    border: none;
+}
+/* .forhide{
+    width:330px;
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(32, 92, 73);
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    height:65px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.34);
+    padding:10px;
+    z-index: 1;
+} */
+.profilefield{
+    width:330px;
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(32, 92, 73);
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    height:65px;
+    padding:10px;
+    z-index: 1;
+}
+.datadiv{
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 90px;
+}
+.firstperson{
+    width:100%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.secoundperson{
+    width:100%;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.forconversation{
+    margin-top:80px;
+    padding-left:10px;
+    padding-right:10px;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom:50px;
+    background-image: url(charbackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.datadiv ,.firstperson ,.secoundperson{
+    margin-bottom:30px;
+}
+.forbackground{
+    background-color: rgba(53, 53, 53, 0.34);
+    padding:10px;
+    border-radius:30px;
+}
+.forcenter{
+    background-color: white;
+    color: black;
+    padding:10px;
+    border-radius:30px;
+}
+.callsec ,.profilesec{
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+.backfunction:hover{
+    cursor: pointer;
+}
